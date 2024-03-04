@@ -233,7 +233,7 @@
 					}
 				}
 				// return found content
-				return str_replace('[[[ROOT-URL]]]', JURI::root(), $target['html']);
+				return str_replace('[[[ROOT-URL]]]', Uri::root(), $target['html']);
 			}
 		}
 		return $default;
