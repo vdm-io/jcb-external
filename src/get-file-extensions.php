@@ -5,7 +5,7 @@
 	 * @param   boolean   $sorted   The multidimensional grouping sort (only if targeted filter is used)
 	 *
 	 * @return  array     All the extensions (targeted & sorted)
-	 * 
+	 * @since   3.0.0
 	 */
 	public static function getFileExtensions($target = null, $sorted = false)
 	{

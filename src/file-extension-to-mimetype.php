@@ -4,6 +4,7 @@
 	 * http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
 	 *
 	 * @var     array
+	 * @since   3.0.0
 	 */
 	protected static $fileExtensionToMimeType = array(
 		'123'			=> 'application/vnd.lotus-1-2-3',
