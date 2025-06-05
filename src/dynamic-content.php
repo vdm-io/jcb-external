@@ -219,7 +219,7 @@
 						md5($image_data) === $target['hash'])
 					{
 						// create the JCB type path if it does not exist
-						if (!Folder::exists(JPATH_ROOT . "/administrator/components/com_[[[component]]]/assets/images/$type"))
+						if (!is_dir(JPATH_ROOT . "/administrator/components/com_[[[component]]]/assets/images/$type"))
 						{
 							Folder::create(JPATH_ROOT . "/administrator/components/com_[[[component]]]/assets/images/$type");
 						}
